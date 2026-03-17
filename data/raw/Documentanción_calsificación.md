@@ -1,4 +1,4 @@
-# Documentación datos para proyecto de regresión.
+# Documentación sobre el proyecto de clasificación.
 
 ## Nombre de la base de datos
 El conjunto de datos original lleva como nombre "WA_Fn-UseC_-HR-Employee-Attrition.csv"
@@ -8,10 +8,11 @@ El conjunto de datos original lleva como nombre "WA_Fn-UseC_-HR-Employee-Attriti
 https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ## Descripción general del problema
-De un conjunto de trabajadores de una empresa, se consultan una serie de datos de índole demográfico, académico, personal y de riesgos psicosociales en el trabajo, y se añade la variable de si el trabajador ha renunciado o no a su empleo. El problema es intentar encontrar alguna relación entre las variables y la renuncia de los trabajores con el fin de intentar reducir este indicador dentro de la empresa y así poder mantener a los trabajadores con mejores condiciones laborales y reducir costos en inducciones.
+Es evidente que las situaciones personales de un trabajador dentro de una empresa pueden influir directamente en su rendimiento. Sin embargo, algunas de estas situaciones tienen un impacto mayor que otras, ya sea de forma positiva o negativa, y pueden variar en naturaleza según las condiciones particulares de cada empleado. Por ello, para una empresa resulta de gran importancia identificar qué variables influyen de manera más directa en el desempeño de sus trabajadores, con el fin de diseñar estrategias que permitan prevenir o mejorar aquellas situaciones que afecten su productividad. En este contexto, el escenario que enmarca nuestro problema y que será objeto de estudio es la renuncia de un empleado.
 
 ## Objetivo del análisis
-Intentar determinar solo con las variables solicitadas si un trabajador es propenso o no a renunciar a su empleo, para poder identificarlos y reducir ese riesgo.
+Nuestro objetivo es identificar posibles relaciones entre una serie de datos de carácter demográfico, académico, personal y de riesgos psicosociales en el trabajo —incluyendo la variable que indica si el trabajador ha renunciado o no a su empleo— y la renuncia de los trabajadores. A partir de este análisis, se busca comprender qué factores podrían estar asociados con este fenómeno, con el propósito de contribuir a la reducción de este indicador dentro de la empresa. De esta manera, se pretende favorecer la permanencia de los empleados mediante mejores condiciones laborales y, al mismo tiempo, disminuir los costos asociados a los procesos de inducción y reemplazo de personal.
+
 
 ## Variable objetivo 
 Attrition (Rotación de personal en la empresa)
@@ -230,6 +231,6 @@ Attrition (Rotación de personal en la empresa)
 35 contando el identificador
 
  ## Posibles hipótesis de estudio
- - *1*: Se espera que en una empresa con una buena gestión de seguridad y salud en el trabajo, las calificaciones de los empleados y su percepción de la empresa se relacionen tanto con no renunciar como con un buen salario.
- - *2*: Se espera que en los casos donde la persona tiene un estilo de vida desorganizado o con malas relaciones personales, sea más propenso a tener peores calificaciones y a dejar su empleo.
- - *3*: Se espera que las personas jóvenes o un estudio de nivel universitario sean más propensas a renunciar en búsqueda de mejores oportunidades.
+ - *1*: En la primera hipótesis se espera demostrar que en una empresa con una buena gestión de seguridad y salud en el trabajo, las calificaciones de los empleados y su percepción de la empresa se relacionen tanto con no renunciar como con un buen salario, es decir, si una persona está contenta, es posible que tenga un buen salario y además es posible que no renuncie.
+ - *2*: Como segunda hipótesis buscamos las variables que se relacionen con tener un estilo de vida desorganizado o tener malas relaciones personales, creemos que una persona así es más propensa a dejar su empleo.
+ - *3*: Para la tercera hipótesis se espera que las personas jóvenes o con un estudio de nivel universitario o menor, sean más propensas a renunciar en búsqueda de mejores oportunidades.

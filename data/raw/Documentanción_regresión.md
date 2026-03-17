@@ -1,16 +1,19 @@
-# Documentación datos para proyecto de regresión.
+# Documentación sobre el proyecto de Regresión.
 
-## Nombre de la base de datos
-La base de datos original lleva por nombre "IUBAT_Student_Performance_Dataset"
+## Nombre de la base de datos.
+La base de datos original lleva por nombre "IUBAT_students_performace_Dataset"
 
-## Fuente (URL)
+## Fuente (URl)
 https://data.mendeley.com/datasets/ns87rtkv58/2
 
-## Descripción general del problema
-A partir de información sobre intereses personales, tiempo y métodos de estudios, además de factores de riesgo como las redes sociales o problemas de salud, discapacidades, suspensiones y otras variables personales como ingresos familiares, nivel de inglés, vida social y personal. Se busca analizar el promedio semestral de estudiantes de IUBAT; Una universidad en Bangladesh, además también se analizará su promedio acumulado. El problema es determinar si hay alguna correlación entre estas variables y el desempeño académico de un estudiante.
+## Descripción del problema.
+La vida universitaria de una persona está marcada por diversas situaciones y problemas constantes que pueden afectar, de manera positiva o negativa, el desempeño académico de cada estudiante. Por ello, se estudiarán distintos tipos de información relacionados con su vida universitaria, tales como intereses personales, tiempo de estudio, métodos de aprendizaje, acceso a la tecnología, problemas de salud, suspensiones, ingresos familiares y vida social, entre otros.
 
 ## Objetivo del análisis
-El objetivo es intentar a partir de los datos mencionados anteriormente, ser capaz de predecir el desempeño académico de un estudiante.
+Determinar si existe una correlación entre estas variables y el rendimiento académico de cada estudiante, con el fin de analizar cómo los distintos factores relacionados con la vida universitaria pueden influir en su desempeño académico. A través de este análisis, se busca identificar posibles relaciones entre dichas variables y establecer si algunas de ellas están asociadas de manera significativa con mejores o peores resultados académicos. De esta manera, se pretende comprender mejor qué aspectos del entorno y las condiciones personales de los estudiantes podrían estar vinculados con su rendimiento académico.
+
+## Variable objetivo
+CGPA, promedio acomulado del estudiante, una variable numérica continua.
 
 ## Variable objetivo 
 CGPA, promedio acumulado del estudiante, una variable numérica continua.
@@ -120,8 +123,8 @@ CGPA, promedio acumulado del estudiante, una variable numérica continua.
 ### What are the skills do you have ?
  - *Descripción*: Habilidades adicionales que posee el estudiante como programación, liderazgo o comunicación.
  - *Tipo de variable*: Categórica nominal
-
-
+ - *Posibles datos*: Programming, Software Development, Web Development (Frontend), Web Development (Backend), Cyber Security, Networking, Content Creation / Writing, Digital Marketing, Graphic Design, Photography / Videography, Video Editing, Animation (2D/3D), Machine Learning, Artificial Intelligence, Data Entry / Data Collection, SEO, App / Android Development, Game Development, UI / UX Design, WordPress, IoT, System Analysis, Market Analysis, Teaching / Mentoring, Problem Solving, MIS (Management Information Systems), JavaScript / PHP (tecnologías específicas) 
+ - *Nota*: Algunas respuestas son no válidas o tienen errores tipográficos.
 ### How many hour do you spent daily on your skill development? (Hours )
  - *Descripción*: Número de horas diarias que el estudiante dedica al desarrollo de habilidades personales o profesionales.
  - *Tipo de variable*: Numérica discreta
@@ -130,6 +133,8 @@ CGPA, promedio acumulado del estudiante, una variable numérica continua.
 ### What is you interested area?
  - *Descripción*: Área principal de interés del estudiante como tecnología, investigación, negocios o arte.
  - *Tipo de variable*: Categórica nominal
+ - *Posibles datos*:Software Development, Hardware, Networking, Web Development, Machine Learning / Deep Learning, Artificial Intelligence, Data Science, UI / UX Design, Cyber Security, Blockchain / Blockchain Engineering, App Development, Game Development, Graphics Design, Digital Marketing, MIS (Management Information Systems), Physics, Mathematics, QA / Testing, Problem Solving, Competitive Programming, IoT (Internet of Things), Cyber Forensics / Security Analysis
+ - *Nota*: En esta pregunta se presenta ruido en forma de respuestas vagas, respuestas narradas y respuestas como "Confuse" 
 
 
 ### What is your relationship status?
@@ -183,6 +188,6 @@ CGPA, promedio acumulado del estudiante, una variable numérica continua.
 32 incluyendo la columna de identificación
 
  ## Posibles hipótesis de estudio
- - *1*: Se espera que los estudiantes que tengan más tiempo al día estudiando, menos tiempo en redes sociales y que prefieran los cursos de manera presencial (Por estar expuestos a menos distracciones) obtengan mejores resultados en su desempeño académico.
- - *2*: Se espera que exista una correlación entre la solvencia económica familiar y mejores resultados, además se podría pensar que esta correlación es independiente de la existencia de alguna dispacidad.
- - *3*: Se espera que los estudiantes con problemas de comportamiento evidenciados en suspensiones o llamados de atención tengan peor desempeño.
+ - *1*: La primera hipótesis es que el nivel de atención de un estudiante se relacione positivamente con su promedio acumulado, para esto buscamos estudiar si los estudiantes que tienen más tiempo al día estudiando, menos tiempo en redes sociales y que prefieren los cursos de manera presencial (Por estar expuestos a menos distracciones) obtienen mejores resultados en su desempeño académico.
+ - *2*: En la segunda hipótesis buscamos que exista una correlación entre la solvencia económica familiar y mejores resultados, además se podría pensar que esta correlación es independiente de la existencia de alguna dispacidad.
+ - *3*: Para la última hipótesis buscamos encontrar si verdaderamente los estudiantes con problemas de comportamiento evidenciados en suspensiones o llamados de atención tienen peor desempeño, o si por el contrario, su comportamiento es independiente a su rendimiento académico.
